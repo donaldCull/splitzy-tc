@@ -1,1 +1,5 @@
-note because this is in a monorepo had to remove react, react-dom, and react-native-web deps and change metro.config.js a bit.
+## Project
+
+Basic filtering for events.  Using tamagui for styling and components.
+
+Install using yarn install and yarn start to get running with expo go.
