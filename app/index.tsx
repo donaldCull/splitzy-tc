@@ -31,7 +31,12 @@ export default function RootLayout() {
           icon={<User size={"$1"} />}
         />
       </XStack>
-      <YStack f={1} borderRadius={"$10"} backgroundColor={"#fefefe"}>
+      <YStack
+        f={1}
+        borderTopLeftRadius={"$10"}
+        borderTopRightRadius={"$10"}
+        backgroundColor={"#fefefe"}
+      >
         <EventList activeFilter={filter} openFilter={setOpen} />
         <Button
           pos="absolute"
